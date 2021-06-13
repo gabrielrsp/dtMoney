@@ -3,7 +3,7 @@ import { Header } from './components/Header'
 import { Dashboard } from './components/Dashboar';
 import { NewTransactionModal } from './components/NewTransactionModal';
 import { useState } from 'react';
-import { TransactionsProvider } from './TransactionsContext';
+import { TransactionsProvider } from './hooks/useTransactions';
 
 export function App() {
 
